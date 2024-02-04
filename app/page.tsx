@@ -13,7 +13,7 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "كسم بيتر",
+      ";sl",
       "كسمين امه؟?",
       "3كسمه!",
       "Last chance!",
@@ -42,7 +42,7 @@ export default function Page() {
         </>
       ) : (
         <>
-          <img className="h-[200px]" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" />
+          <img className="h-[200px]" src="https://tenor.com/view/cat-tiktok-cute-adorable-sad-gif-16747553" />
           <h1 className="text-4xl my-4">Will you be my Valentine?</h1>
           <div>
             <button
