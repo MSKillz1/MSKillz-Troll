@@ -31,19 +31,19 @@ export default function Page() {
       "You're breaking my heart ;(",
     ];
 
-    return phrases[Math.min(noCount, phrases.length - 1)];
+  return phrases[Math.min(noCount, phrases.length - 1)];
   };
 
   return (
     <div className="flex flex-col items-center justify-center h-screen -mt-16">
       {yesPressed ? (
         <>
-        <img src="https://imagestool.com/0d38e673-e722-4a7c-bdf4-9ea143a4c49d" />
-        <div className="text-4xl font-bold my-4">Ok yay!!!</div>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGZ5bHd3NnU1b2FvaGc5NTd0dzA2ZHJjczdseDZkMXh4eDd2MmRpYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vgrKdk6EDpciQBUSk0/giphy-downsized-large.gif" />
+        <div className="text-4xl font-bold my-4">Ya salaaaaam ♡ !!!</div>
         </>
       ) : (
         <>
-          <img className="h-[200px]" src="https://imagestool.com/8e688add-752d-493d-9f66-a9f1c2547e08" />
+          <img className="h-[200px]" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanBtNWh5OWJjNWQweXF4cDBsY293YXF5a3ZhYXkxeTY4OXIyN2RvMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CRTH5z0rBHdmqOZE8B/giphy-downsized-large.gif" />
           <h1 className="text-4xl my-4">Tl3by ya shahd?</h1>
           <div>
             <button
