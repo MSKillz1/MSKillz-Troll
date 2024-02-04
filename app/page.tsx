@@ -13,9 +13,9 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      ";sl",
-      "كسمين امه؟?",
-      "3كسمه!",
+      "Tl3by ya Shahd?",
+      "Mot2kda?",
+      "Yabo Shahdood",
       "Last chance!",
       "Surely not?",
       "You might regret this!",
@@ -25,7 +25,7 @@ export default function Page() {
       "Have a heart!",
       "Don't be so cold!",
       "Change of heart?",
-      "Wouldn't you reconsider?",
+      "Wouldn't you Come?",
       "Is that your final answer?",
       "You're breaking my heart ;(",
     ];
@@ -37,12 +37,12 @@ export default function Page() {
     <div className="flex flex-col items-center justify-center h-screen -mt-16">
       {yesPressed ? (
         <>
-        <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
+        <img src="blob:https://imagestool.com/0d38e673-e722-4a7c-bdf4-9ea143a4c49d" />
         <div className="text-4xl font-bold my-4">Ok yay!!!</div>
         </>
       ) : (
         <>
-          <img className="h-[200px]" src="https://media1.tenor.com/m/qKFNYB3HB9YAAAAC/cat-tiktok.gif" />
+          <img className="h-[200px]" src="blob:https://imagestool.com/8e688add-752d-493d-9f66-a9f1c2547e08" />
           <h1 className="text-4xl my-4">Will you be my Valentine?</h1>
           <div>
             <button
