@@ -31,7 +31,7 @@ export default function Page() {
       "You're breaking my heart ;(",
     ];
 
-  return phrases[Math.min(noCount, phrases.length - 1)];
+     return phrases[Math.min(noCount, phrases.length - 1)];
   };
 
   return (
