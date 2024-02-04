@@ -13,9 +13,10 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Tl3by ya Shahd?",
+      "Fakry ya Shahd?",
       "Mot2kda?",
       "Yabo Shahdood",
+      "Fakry tany ya Shahd?",
       "Last chance!",
       "Surely not?",
       "You might regret this!",
@@ -37,13 +38,13 @@ export default function Page() {
     <div className="flex flex-col items-center justify-center h-screen -mt-16">
       {yesPressed ? (
         <>
-        <img src="blob:https://imagestool.com/0d38e673-e722-4a7c-bdf4-9ea143a4c49d" />
+        <img src="https://imagestool.com/0d38e673-e722-4a7c-bdf4-9ea143a4c49d" />
         <div className="text-4xl font-bold my-4">Ok yay!!!</div>
         </>
       ) : (
         <>
-          <img className="h-[200px]" src="blob:https://imagestool.com/8e688add-752d-493d-9f66-a9f1c2547e08" />
-          <h1 className="text-4xl my-4">Will you be my Valentine?</h1>
+          <img className="h-[200px]" src="https://imagestool.com/8e688add-752d-493d-9f66-a9f1c2547e08" />
+          <h1 className="text-4xl my-4">Tl3by ya shahd?</h1>
           <div>
             <button
               className={`bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-4`}
