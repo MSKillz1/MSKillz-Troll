@@ -42,7 +42,7 @@ export default function Page() {
         </>
       ) : (
         <>
-          <img className="h-[200px]" src="https://tenor.com/view/cat-tiktok-cute-adorable-sad-gif-16747553" />
+          <img className="h-[200px]" src="https://media1.tenor.com/m/qKFNYB3HB9YAAAAC/cat-tiktok.gif" />
           <h1 className="text-4xl my-4">Will you be my Valentine?</h1>
           <div>
             <button
