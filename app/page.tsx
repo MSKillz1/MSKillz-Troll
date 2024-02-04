@@ -13,7 +13,7 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "كسم السيسي?",
+      "كسم بيتر",
       "كسمين امه؟?",
       "3كسمه!",
       "Last chance!",
